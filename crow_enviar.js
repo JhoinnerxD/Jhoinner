@@ -19,7 +19,7 @@ function clickButtonIfSpanExists() {
         } else {
           console.warn("Button element not found.");
         }
-      }, Math.random() * (45000 - 60000) + 60000); // Random delay in milliseconds
+      }, Math.random() * (30000 - 60000) + 60000); // Random delay in milliseconds
     } else {
       console.log("Span element not found. Button not clicked.");
     }
